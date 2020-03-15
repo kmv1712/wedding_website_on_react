@@ -13,3 +13,6 @@ npm install react-bootstrap bootstrap
 Запустить веб сервер npm start
 
 npm install react-router-dom
+
+
+npm install react-scroll

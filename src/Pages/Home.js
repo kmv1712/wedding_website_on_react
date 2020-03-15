@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import CarouselBox from '../Components/CarouselBox';
-import Carousel from 'react-bootstrap/Carousel';
+import CarouselBox from '../Components/CarouselBox/CarouselBox';
 import { Container, CardDeck, Card, Button } from 'react-bootstrap';
 
 export default class Home extends Component {
@@ -8,7 +7,7 @@ export default class Home extends Component {
         return (
             <>
             <CarouselBox />
-            
+
             <Container>
                 <h2 className="text-center m-4">Our team</h2>
                 <CardDeck>
