@@ -27,61 +27,61 @@ const Navbar = () => {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
 
         <ul className="navbar-nav m-auto">
-          <li className="nav-item nav-item mr-4 ml-4">
+          <li className="nav-item mr-4 ml-4">
             <Link
               className="nav-link"
               to="carouselbox"
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={-10}
               duration={500}
             >
               Главная
             </Link>
           </li>
-            <li className="nav-item nav-item mr-4 ml-4">
+            <li className="nav-item mr-4 ml-4">
                  <Link
                   className="nav-link"
                   to="section2"
                   spy={true}
                   smooth={true}
-                  offset={-70}
+                  offset={-58}
                   duration={500}
                 >
                   Наша история
                 </Link>
               </li>
-              <li className="nav-item nav-item mr-4 ml-4">
+              <li className="nav-item mr-4 ml-4">
                 <Link
                 className="nav-link"
                   to="section3"
                   spy={true}
                   smooth={true}
-                  offset={-70}
+                  offset={-58}
                   duration={500}
                 >
                   Наши гости
                 </Link>
               </li>
-              <li className="nav-item nav-item mr-4 ml-4">
+              <li className="nav-item mr-4 ml-4">
                 <Link
                 className="nav-link"
                   to="section4"
                   spy={true}
                   smooth={true}
-                  offset={-70}
+                  offset={-58}
                   duration={500}
                 >
                   События
                 </Link>
               </li>
-              <li className="nav-item nav-item mr-4 ml-4">
+              <li className="nav-item mr-4 ml-4">
                 <Link
                 className="nav-link"
                   to="section5"
                   spy={true}
                   smooth={true}
-                  offset={-70}
+                  offset={-58}
                   duration={500}
                 >
                   Section 5
