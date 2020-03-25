@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 import CarouselBox from "./Components/CarouselBox";
 import Navbar from "./Components/Navbar";
 import Section from "./Components/Section";

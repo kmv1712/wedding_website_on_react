@@ -24,10 +24,10 @@ const Navbar = () => {
       >
         <span className="navbar-toggler-icon"></span>
       </button>
-
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav mr-auto">
-          <li className="nav-item">
+
+        <ul className="navbar-nav m-auto">
+          <li className="nav-item nav-item mr-4 ml-4">
             <Link
               className="nav-link"
               to="carouselbox"
@@ -39,7 +39,7 @@ const Navbar = () => {
               Главная
             </Link>
           </li>
-            <li className="nav-item">
+            <li className="nav-item nav-item mr-4 ml-4">
                  <Link
                   className="nav-link"
                   to="section2"
@@ -51,7 +51,7 @@ const Navbar = () => {
                   Наша история
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item nav-item mr-4 ml-4">
                 <Link
                 className="nav-link"
                   to="section3"
@@ -63,7 +63,7 @@ const Navbar = () => {
                   Наши гости
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item nav-item mr-4 ml-4">
                 <Link
                 className="nav-link"
                   to="section4"
@@ -75,7 +75,7 @@ const Navbar = () => {
                   События
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item nav-item mr-4 ml-4">
                 <Link
                 className="nav-link"
                   to="section5"
@@ -88,7 +88,7 @@ const Navbar = () => {
                 </Link>
           </li>
         </ul>
-      </div>
+        </div>
     </nav>
   );
 };

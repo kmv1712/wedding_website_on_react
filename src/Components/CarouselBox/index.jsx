@@ -18,11 +18,11 @@ const CarouselBox = ({ title, id }) => {
             <div id={id}>   
             <Carousel>                 
                 <Carousel.Item>
-                    <img
+                    {/* <img
                         className="d-block w-100"
                         src={ forestImg }
                         alt="Forest"
-                    />
+                    /> */}
                     <Carousel.Caption>                        
                         <TextCarouselBox/>
                     </Carousel.Caption>
