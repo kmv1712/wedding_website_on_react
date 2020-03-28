@@ -1,0 +1,62 @@
+div[class*="col-"].spacer-one-top-lg, .spacer-one-top-lg {
+    padding-top: 6rem;
+}
+
+#wedding {
+    position: relative;
+    width: 100%;
+    background-color: #f5d7d7;
+    z-index: 4;
+}
+
+.icon-round > .icon-svg {
+    height: 2.5rem;
+}
+svg.icon-svg {
+    background: none !important;
+}
+svg {
+    vertical-align: middle;
+}
+
+.bg-icon-white {
+    background: rgba(255, 255, 255, 0.1) !important;
+}
+.icon-round {
+    flex-shrink: 0;
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card.bg-primary {
+    border-color: #e25d5d;
+}
+
+.section-dark {
+    background: #f5d7d7;
+    color: white;
+  }
+  
+.section-content {
+max-width: 800px;
+margin: 0 auto;
+padding: 40px;
+}
+  
+.card-body {
+    padding: 8rem 1rem;
+}
+
+.card-deck .card {
+    border-color: #e25d5d;
+    border-radius: 10%;
+    margin-bottom: 10%;
+}
+
+.curved-decoration {
+    fill: white;
+}

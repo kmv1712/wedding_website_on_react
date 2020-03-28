@@ -1,0 +1,53 @@
+section {
+    position: relative;
+    width: 100%;
+    z-index: 4;
+}
+
+
+.countdown-shadow {
+    box-shadow: 0.56rem 0.56rem 0 rgba(0, 0, 0, 0.02);
+}
+
+
+.countdown span.counter {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1;
+}
+.text-primary {
+    color: #e25d5d !important;
+}
+.mb-1, .my-1 {
+    margin-bottom: 0.25rem !important;
+}
+
+.countdown span.label {
+    font-size: .85rem;
+    font-weight: 400;
+    display: block;
+    color: #000000;
+}
+
+div[class*="col-"].spacer-double-lg, .spacer-double-lg {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.wedding-date {
+    position: relative;
+    width: 100%;
+    z-index: 4;
+}
+
+.lead {
+    font-size: 1.9rem;
+    font-weight: 300;
+}
+
+.curved-decoration {
+    position: relative;
+    z-index: 2;
+    top: 5px;
+    width: 100%;
+}

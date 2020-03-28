@@ -4,6 +4,8 @@ import CarouselBox from "./Components/CarouselBox";
 import Navbar from "./Components/Navbar";
 import Section from "./Components/Section";
 import dummyText from "./DummyText";
+import CelebrateTimer from "./Components/CelebrateTimer";
+import WeddingEvents from "./Components/WeddingEvents";
 
 class App extends Component {
   render() {
@@ -14,29 +16,23 @@ class App extends Component {
           title="CarouselBox"
           id="carouselbox"
         />
-        <Section
+        <CelebrateTimer
           title="Section 2"
           subtitle={dummyText}
           dark={false}
-          id="section2"
+          id="CelebrateTimer"
         />
-        <Section
-          title="Section 3"
-          subtitle={dummyText}
-          dark={true}
-          id="section3"
+        <WeddingEvents
+          // title="Section 3"
+          // subtitle={dummyText}
+          // dark={true}
+          // id="section3"
         />
-        <Section
-          title="Section 4"
-          subtitle={dummyText}
-          dark={false}
-          id="section4"
-        />
-        <Section
-          title="Section 5"
-          subtitle={dummyText}
-          dark={true}
-          id="section5"
+        <WeddingEvents
+          // title="Section 3"
+          // subtitle={dummyText}
+          // dark={true}
+          // id="section3"
         />
       </div>
     );

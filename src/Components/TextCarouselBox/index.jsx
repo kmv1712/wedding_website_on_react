@@ -6,9 +6,9 @@ import './TextCarouselBox.css';
 const TextCarouselBox = () => {
     return (   
         <>                   
-            <div>The Wedding Celebration of</div>
-            <h1>Adam &amp; Hawa</h1>
-            <p>10 September 2018</p>
+            <div>Свадебный праздник</div>
+            <h1>Анастасии &amp; Михаила</h1>
+            <p>27 Июня 2020</p>
         </>
     );
 };

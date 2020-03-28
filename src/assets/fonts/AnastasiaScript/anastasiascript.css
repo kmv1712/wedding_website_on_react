@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'AnastasiaScript';
+    font-style: normal;
+    font-weight: 400;
+    src: local('AnastasiaScript'), local('AnastasiaScript-Regular'),
+        url('./anastasiascript.woff') format('woff'),
+        url('./anastasiascript.ttf') format('truetype');
+}
