@@ -266,15 +266,13 @@ const WeddingEvents = () => {
           <div class="col">
             <div class=" text-center mb-5 pb-5">
               <h1 class="display-4 mb-0">Свадебные события</h1>
-              <p class="w-md-40 mb-0 mx-auto text-dark-gray opacity-8 ">
-              </p>
+              <p class="w-md-40 mb-0 mx-auto text-dark-gray opacity-8 "></p>
             </div>
           </div>
         </div>
 
         <div class="card-deck">
           <div class="card">
-          
             <div class="card-body">
               <h5 class="card-title">Основная церемония</h5>
               <h5 class="card-title">14:30 - 15:10</h5>
@@ -292,7 +290,7 @@ const WeddingEvents = () => {
           <div class="card">
             <image class="card-img-top" src="..." alt="Card image cap" />
             <div class="card-body">
-            <h5 class="card-title">Официальная часть</h5>
+              <h5 class="card-title">Официальная часть</h5>
               <h5 class="card-title">14:30 - 15:10</h5>
               <p class="card-text">
                 ЗАГС
@@ -308,7 +306,7 @@ const WeddingEvents = () => {
           <div class="card">
             <image class="card-img-top" src="..." alt="Card image cap" />
             <div class="card-body">
-            <h5 class="card-title">Вечеринка</h5>
+              <h5 class="card-title">Вечеринка</h5>
               <h5 class="card-title">17:30 - 00:00</h5>
               <p class="card-text">
                 Серебряный родник
@@ -324,15 +322,28 @@ const WeddingEvents = () => {
         </div>
       </div>
       <div class="curved-decoration ">
-               <svg width="100%" height="100%" class="bg-secondary-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 2560 168.6227" enable-background="new 0 0 2560 168.6227" space="preserve">
-<g>
-</g>
-<g>
-   <path d="M0,0c0,0,219.6543,165.951,730.788,124.0771c383.3156-31.4028,827.2139-96.9514,1244.7139-96.9514
-      c212.5106,0,438.9999,3.5,584.4982,1.5844v139.9126H0V0z"></path>
-</g>
-</svg>
-            </div>
+        <svg
+          width="100%"
+          height="100%"
+          class="bg-secondary-svg"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          viewBox="0 0 2560 168.6227"
+          enable-background="new 0 0 2560 168.6227"
+          space="preserve"
+        >
+          <g></g>
+          <g>
+            <path
+              d="M0,0c0,0,219.6543,165.951,730.788,124.0771c383.3156-31.4028,827.2139-96.9514,1244.7139-96.9514
+      c212.5106,0,438.9999,3.5,584.4982,1.5844v139.9126H0V0z"
+            ></path>
+          </g>
+        </svg>
+      </div>
     </section>
   );
 };

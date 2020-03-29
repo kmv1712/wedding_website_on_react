@@ -1,0 +1,28 @@
+
+.section-dark {
+  background: #333;
+  color: white;
+}
+
+.section-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.separator-banner {
+	content: '\f105';
+	font-family: FontAwesome;
+	display: block;
+}
+
+.separator-banner .fa {
+  color: red;
+  font-size: 24px;
+  vertical-align: super;
+}
+
+#footer{
+  margin: 10% ;
+}
+

@@ -10,9 +10,9 @@ const scrollToTop = () => {
 const Navbar = () => {
   return (
     <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-      <a className="navbar-brand" href="/">
+      {/* <a className="navbar-brand" href="/">
         <img src={logo} width="30" height="30" alt="" />
-      </a>
+      </a> */}
       <button
         className="navbar-toggler"
         type="button"
@@ -41,7 +41,7 @@ const Navbar = () => {
           <li className="nav-item mr-4 ml-4">
             <Link
               className="nav-link"
-              to="section2"
+              to="wedding-date"
               spy={true}
               smooth={true}
               offset={-58}
@@ -53,7 +53,7 @@ const Navbar = () => {
           <li className="nav-item mr-4 ml-4">
             <Link
               className="nav-link"
-              to="section4"
+              to="wedding"
               spy={true}
               smooth={true}
               offset={-58}

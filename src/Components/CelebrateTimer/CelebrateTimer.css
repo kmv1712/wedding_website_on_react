@@ -51,3 +51,8 @@ div[class*="col-"].spacer-double-lg, .spacer-double-lg {
     top: 5px;
     width: 100%;
 }
+
+
+.wedding-date .curved-decoration{
+    fill: #f5d7d7;
+}
