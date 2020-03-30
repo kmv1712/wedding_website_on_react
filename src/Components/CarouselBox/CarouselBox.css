@@ -1,11 +1,43 @@
 .carousel-caption {
     position: absolute;
-    right: (100% - $carousel-caption-width) / 2;
-    bottom: 60%;
-    left: (100% - $carousel-caption-width) / 2;
     z-index: 10;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: $carousel-caption-color;
     text-align: center;
   }
+
+
+.carousel-caption h1{
+  font-size: 6rem;
+}
+
+.carousel-caption div{
+  font-size: 4rem;
+}
+
+.carousel-caption p{
+  font-size: 3rem;
+}
+
+
+@media (max-width: 850px) {
+  .carousel-caption {
+    position: absolute;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .carousel-caption h1{
+    font-size: 3rem;
+  }
+
+  .carousel-caption div{
+    font-size: 2rem;
+  }
+
+  .carousel-caption p{
+    font-size: 1rem;
+  }
+}

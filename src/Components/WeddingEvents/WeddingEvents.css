@@ -46,17 +46,16 @@ max-width: 800px;
 margin: 0 auto;
 padding: 40px;
 }
-  
-.card-body {
-    padding: 8rem 1rem;
-}
 
 .card-deck .card {
-    border-color: #e25d5d;
     border-radius: 10%;
     margin-bottom: 10%;
 }
 
 .curved-decoration {
     fill: white;
+}
+
+.card-img, .card-img-top {
+    border-radius: 10%;
 }

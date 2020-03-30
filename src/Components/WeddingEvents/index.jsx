@@ -272,13 +272,49 @@ const WeddingEvents = () => {
         </div>
 
         <div class="card-deck">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Основная церемония</h5>
-              <h5 class="card-title">14:30 - 15:10</h5>
+          <div class="card card-cascade narrower">
+            <div class="view view-cascade overlay">
+              <img
+                class="card-img-top"
+                src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(147).jpg"
+                alt="Card image cap"
+              ></img>
+              <a>
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+            <div class="card-body card-body-cascade">
+              <h5 class="pink-text pb-2 pt-1">
+                <i class="fas fa-utensils"></i> Culinary
+              </h5>
+              <h4 class="font-weight-bold card-title">
+                Cheat day inspirations
+              </h4>
               <p class="card-text">
-                ЗАГС
-                <br />
+                Ut enim ad minima veniam, quis nostrum exercitationem ullam
+                corporis suscipit laboriosam, nisi ut aliquid ex ea commodi.
+              </p>
+            </div>
+          </div>
+
+          <div class="card card-cascade narrower">
+            <div class="view view-cascade overlay">
+              <img
+                class="card-img-top"
+                src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(147).jpg"
+                alt="Card image cap"
+              ></img>
+              <a>
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <div class="card-body card-body-cascade">
+              <h5 class="pink-text pb-2 pt-1">
+                <i class="fas fa-utensils"></i> Официальная часть
+              </h5>
+              <h4 class="font-weight-bold card-title">14:30 - 15:10</h4>
+              <p class="card-text">
                 Сакко и Ванцети 105
                 <br />
                 Екатеринбург
@@ -287,7 +323,37 @@ const WeddingEvents = () => {
               </p>
             </div>
           </div>
-          <div class="card">
+
+          <div class="card card-cascade narrower">
+            <div class="view view-cascade overlay">
+              <img
+                class="card-img-top"
+                src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(147).jpg"
+                alt="Card image cap"
+              ></img>
+              <a>
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <div class="card-body card-body-cascade">
+              <h5 class="pink-text pb-2 pt-1">
+                <i class="fas fa-utensils"></i> Вечеринка
+              </h5>
+              <h4 class="font-weight-bold card-title">17:30 - 00:00</h4>
+              <p class="card-text">
+                Серебряный родник
+                <br />
+                Вилла №2
+                <br />
+                Арамиль
+                <br />
+                (415) 292 - 0100
+              </p>
+            </div>
+          </div>
+
+          {/* <div class="card">
             <image class="card-img-top" src="..." alt="Card image cap" />
             <div class="card-body">
               <h5 class="card-title">Официальная часть</h5>
@@ -303,6 +369,7 @@ const WeddingEvents = () => {
               </p>
             </div>
           </div>
+
           <div class="card">
             <image class="card-img-top" src="..." alt="Card image cap" />
             <div class="card-body">
@@ -317,8 +384,8 @@ const WeddingEvents = () => {
                 <br />
                 (415) 292 - 0100
               </p>
-            </div>
-          </div>
+            </div> */}
+          {/* </div> */}
         </div>
       </div>
       <div class="curved-decoration ">
