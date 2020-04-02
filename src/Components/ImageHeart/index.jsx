@@ -1,5 +1,6 @@
 import React from 'react';
 import MishaNasta from "../../assets/img/IMG_5690.JPG";
+import MishaNasta1 from "../../assets/img/IMG_5167.JPG";
 import "./ImageHeart.css";
 
 const ImageHeart = () => {
