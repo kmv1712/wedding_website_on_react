@@ -6,12 +6,15 @@ import Footer from "./Components/Footer";
 import dummyText from "./DummyText";
 import CelebrateTimer from "./Components/CelebrateTimer";
 import WeddingEvents from "./Components/WeddingEvents";
+import Section from "./Components/Section";
+import Invitation from "./Components/Invitation";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Navbar />
+        <Invitation/>
         <CarouselBox
           title="CarouselBox"
           id="carouselbox"
