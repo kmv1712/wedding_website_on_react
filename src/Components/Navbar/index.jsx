@@ -26,6 +26,19 @@ const Navbar = () => {
       </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav m-auto">
+        <li className="nav-item mr-4 ml-4">
+            <Link
+              className="nav-link"
+              to="guest"
+              spy={true}
+              smooth={true}
+              offset={-60}
+              duration={500}
+            >
+              Приглашение
+          </Link>
+          </li>
+
           <li className="nav-item mr-4 ml-4">
             <Link
               className="nav-link"
@@ -44,7 +57,7 @@ const Navbar = () => {
               to="wedding-date"
               spy={true}
               smooth={true}
-              offset={-58}
+              offset={-60}
               duration={500}
             >
               Дата свадьбы

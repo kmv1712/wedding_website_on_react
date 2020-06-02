@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 // import cn from 'classnames/bind'
-// import './countdown.css'
+import './Timer.css'
 
 //const cx = cn.bind(styles)
 
